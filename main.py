@@ -10,5 +10,5 @@ people_amount = int(people_amount)
 total_with_tip = total_bill + (total_bill * tip_amount)
 final_bill_per_person = round(total_with_tip / people_amount, 2)
 
-print(f"The Total Bill is: {total_with_tip}€")
+print(f"The total bill is: {total_with_tip}€")
 print(f"Each person should pay: {final_bill_per_person}€")
